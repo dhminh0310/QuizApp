@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.Activities.MainActivity"
+    android:background="@drawable/custom_background">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/quizapp"
+        android:id="@+id/imageQuizz"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/transparent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/opensansbold"
+        android:text="Quiz App"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/imageQuizz"
+        android:id="@+id/textViewAppTitle"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewAppTitle"
+        android:layout_marginTop="20dp"
+        android:text="Take quiz"
+        android:textSize="18sp"
+        android:background="@drawable/custom_normal_shape"
+        android:gravity="left|center_vertical"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_play"
+        android:drawablePadding="10dp"
+        android:id="@+id/textViewPlay"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Quit"
+        android:textSize="18sp"
+        android:background="@drawable/custom_normal_shape"
+        android:gravity="left|center_vertical"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_exit"
+        android:drawablePadding="10dp"
+        android:layout_below="@+id/textViewPlay"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textViewQuit"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewQuestionTitle"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="@color/black"
+            android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+            android:layout_gravity="left|center_vertical"
+            android:text="asda"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/textViewQuestionTitle"
+            android:padding="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Answer1"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:id="@+id/textViewAnswer1"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Answer2"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:id="@+id/textViewAnswer2"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Answer3"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:id="@+id/textViewAnswer3"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Answer4"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:id="@+id/textViewAnswer4"/>
+
+        </LinearLayout>
+
+</RelativeLayout>
